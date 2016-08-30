@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value = "Sql_news"/>
+    <version value = "2" />
+    <list>
+        <mapping class = "com.ash.whatever.bean.NewsBean$NewslistBean"/>
+        <mapping class = "com.ash.whatever.bean.ChannelBean"/>
+    </list>
+</litepal>

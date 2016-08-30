@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title">#0a0a0a</color>
+    <color name="night_title">#fff</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#fafafa</color>
+    <color name="white_dark">#f3f3f3</color>
+
+    <color name="gray_light">#cccccc</color>
+    <color name="gray">#777</color>
+    <color name="gray_dark">#383838</color>
+
+    <color name="green_light">#8e9ea4</color>
+    <color name="green">#34515c</color>
+    <color name="green_dark">#1e3e4a</color>
+
+    <color name="night_mask">#90000000</color>
+
+    <color name="drag_list_item">#adec8d</color>
+    <color name="subscribe_item_drag_stroke">#ffd2d2d2</color>
+    <color name="subscribe_item_drag_bg">#fff5f5f5</color>
+    <color name="subscribe_item_selected_stroke">#ffcc3131</color>
+    <color name="subscribe_item_selected_bg">#ffffffff</color>
+    <color name="subscribe_item_disabled_bg">#ffefefef</color>
+    <color name="subscribe_item_disabled_stroke">#ffd9d9d9</color>
+    <color name="subscribe_item_pressed_bg">#fff9f9f9</color>
+    <color name="subscribe_item_pressed_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_normal_bg">#fff5f5f5</color>
+    <color name="subscribe_item_normal_stroke">#ffcdcdcd</color>
+
+    <color name="subscribe_bg">#fff5f5f5</color>
+    <color name="subscribe_tip_text">#ff2e2e2e</color>
+    <color name="subscribe_seperate_line">#ffcdcdcd</color>
+</resources>

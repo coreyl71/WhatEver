@@ -1,0 +1,1 @@
+include ':app', 'xrecyclerview', 'library_RecyclerAnimators', 'library_DragRecycler', ':BarCodeTest原版library'

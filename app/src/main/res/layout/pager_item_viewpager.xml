@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_pager_title"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_pager_time"
+        android:layout_marginLeft="8dp"
+        android:maxLines="1"
+        android:text="这里是标题"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_pager_sourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/vp_pager"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="这里是来源"
+        android:textColor="#FFF"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tv_pager_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/vp_pager"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/tv_pager_sourse"
+        android:text="这里是时间"
+        android:textColor="#FFF"
+        android:textSize="10sp" />
+
+    <RadioGroup
+        android:id="@+id/rg_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/vp_pager"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="50dp"
+        android:orientation="horizontal"></RadioGroup>
+
+</RelativeLayout>

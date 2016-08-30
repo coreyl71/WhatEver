@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:id="@+id/tv_title_setting"
+        android:text="设置"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:id="@+id/tv_brightness"
+            android:text="亮度调节"
+            android:textSize="20sp"/>
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sb_brightness"
+            android:layout_below="@+id/tv_brightness"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_clean"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:text="清除缓存"
+            android:layout_below="@+id/sb_brightness"
+            android:background="#00000000"
+            android:drawableRight="@mipmap/icon_right_arrow"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
